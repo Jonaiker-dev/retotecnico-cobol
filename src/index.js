@@ -3,7 +3,7 @@ const csv=require('csv-parser')
 const {BalanceFinal,MayorTransaccion,ConteoTransacciones}=require('./functions')
 const transacciones=[]
 //por la consola ingresamos la url del archivo csv a analizar, sino ingresamos una ruta por defecto
-const file =process.env.FILE??'./src/data.csv'
+const file =process.argv[2]??'./src/data.csv'
 
 fs.createReadStream(file)
   .pipe(csv())
