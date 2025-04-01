@@ -8,7 +8,7 @@ por un archivo `.CSV`
 - Clonar el repositorio `https://github.com/Jonaiker-dev/retotecnico-cobol`
 - Ejecutar `npm install` para crear la carpeta node_modules
 - De ser necesario instalar con npm la libreria ***csv-parser*** usando `npm install csv-parser`
-- Ejecutar `node src/index.js FILE=ruta-archivo.csv` de no ingresar el parametro FILE , se usara por defecto los datos del csv contenido en el repositorio 
+- Ejecutar `node src/index.js ruta-archivo.csv` de no ingresar la URL del CSV  , se usara por defecto los datos del csv contenido en el repositorio 
 
 ### SOLUCION
 ---
